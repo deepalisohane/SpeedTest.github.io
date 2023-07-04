@@ -37,7 +37,7 @@ function randomParagraph() {
 
   typingTag.querySelectorAll("span")[0].classList.add("active")
   document.addEventListener("keydown", () => inputField.focus())
-  // typingTag.addEventListener("click", () => inputField.focus())
+  typingTag.addEventListener("click", () => inputField.focus())
 }
 
 randomParagraph();
